@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+
+}
+form{
+  display: flex;
+  flex-direction:column;
+  text-align: center;
+  
+}
+
+.Header{
+  height: 200px;
+  background-color: black;
+  font-family: 'Press Start 2P', cursive;
+}
+.Header img{
+  height: 200px;
+  width: 100%;
+}
+.Header h1{
+  text-align: center;
+  color: whitesmoke;
+  padding: 50px;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+form p i{
+  color: gray;
+}
+.InputForm{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 0 auto;
+  width: 400px;
+  height: 250px;
+  border: 1px transparent gray;
+  background-color:whitesmoke;
+  border-radius: 5px;
+}
+
+.InputForm span{
+  font-family:'Press Start 2P', cursive;
+}
+
+.Formulario{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 500px; 
+  background-color: black;
+  padding-bottom: 50px;
+
+}
+
+.ImagemFundo img{
+  height: 100%;
+  width: 100%;
+  background-image: cover;
+}
+
+.email{
+  border-radius: 5px;
+  width: 250px;
+  height: 30px;
+}
+
+.enviar{
+  height: 30px;
+  border-radius: 5px;
+  background-color: black;
+  color: whitesmoke;
+}
+
+.Container{
+  text-align: center;
+  background-color: black;
+  color: whitesmoke;
+}
+
+.Container span{
+  color: green;
+}
+
+.ContainerProdutos{
+  display: flex;
+  width: 100%;
+}
+
+.ContainerProdutos h1{
+  text-align: center;
+  padding-top: 10px;
+  background-color: black;
+  color:whitesmoke;
+}
+
+.Produtos{
+  width: 100%;
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;
+  flex-wrap:wrap;
+  background-color: black;
+  color: whitesmoke;
+}
+.Produtos img{
+  height: 150px;
+  width: 200px;
+  border-radius: 5px;
+}
+
+.Produtos span{
+  color:green;
+}
+
+.Card{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  padding-bottom: 15px;
+  border: transparent 1px gray;
+}
+
+footer{
+  display: flex;
+  align-items:flex-end;
+  justify-content: space-around;
+  height: 150px;
+  padding:30px;
+  background-color:black;
+  color:whitesmoke;
+}
+
+footer img{
+  width: 100px;
+  height: 200px;
+  color: whitesmoke;
+}
+
+
+  
